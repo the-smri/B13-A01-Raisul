@@ -36,3 +36,143 @@
     border-radius: 4px;
 }
 
+ .btn {
+    font-size: 16px;
+    font-weight: 600; 
+    padding: 12px 16px;
+    color: #FFFFFF;
+    background-color: #469165;
+    border: none;
+    border-radius: 4px;
+}
+
+#banner-container{
+    background-image: url(../assets/hero-bg.png);
+    width: 1600px;
+    height: 674px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    /* color: #FFFFFF; */
+    /* font-size: 72px; */
+    text-align: center;
+}
+
+.banner-text h4{
+    color:green;
+    /* border: 5px solid white; */
+    background-color: #FFFFFF;
+    padding: 8px 12px 8px 34px;
+    border-radius: 100px;
+    width: 230px;
+    /* text-align: center; */
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#banner-container h2{
+    color: #FFFFFF;
+    font-size: 72px;
+    font-weight: 700;
+    /* text-align: center; */
+}
+
+#banner-container span{
+    color:#30B868;
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.banner-text p{
+    /* width: 1360px; */
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding-top: 16px;
+
+}
+
+.banner-btn{
+    display: flex;
+    /* width: 465px; */
+    align-items: center;
+    justify-content:center;
+    text-align:center;
+    gap: 16px;
+
+}
+
+.banner-btn .btn{
+    text-align: center;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.banner-btn .btn-transparent{
+    padding: 12px 16px;
+    margin: 1px;
+    width: 164px;
+    margin-top: 32px;
+}
+
+.text-area{
+    text-align: center;
+    padding: 44px 120px;
+}
+.text-area h2{
+    font-size: 48px;
+    font-weight:700;
+    margin-bottom: 16px;
+}
+
+#card-conatainer{
+    width: 1360px;
+    display: flex;
+    margin: 44px 120px;
+    gap: 24px;
+}
+
+.card {
+  /* width: 320px; */
+  padding: 24px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-wrapper {
+  width: 60px;
+  height: 60px;
+  background-color: #ff4d4d; 
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.card-icon {
+  width: 32px;
+  height: auto;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #001931;
+  margin: 0 0 16px 0;
+}
+
+.card-text {
+  font-size: 16px;
+  color: #627382;
+  line-height: 20px;
+  margin: 0; 
+  text-align: center;
+}
