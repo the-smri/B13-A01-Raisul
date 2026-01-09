@@ -53,6 +53,7 @@
 }
 
 #banner-container{
+    /* border: 2px solid red; */
     background-image: url(../assets/hero-bg.png);
     width: 1600px;
     height: 674px;
@@ -224,7 +225,6 @@
 
 .solution-desc {
   font-size: 16px;
-  line-height: 1.7;
   color: #6b7280;
   max-width: 620px;
 }
@@ -244,7 +244,7 @@
   position: relative;
 }
 
-
+/* I took help from gemini for this section. */
 .solution-list li::before {
   content: "✔";
   position: absolute;
